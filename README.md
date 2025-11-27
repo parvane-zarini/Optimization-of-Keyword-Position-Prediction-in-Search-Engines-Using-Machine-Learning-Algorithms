@@ -3,8 +3,8 @@ This project was carried out with the aim of using machine learning algorithms t
 
 With the increasing use of the internet and search engines such as Google, optimizing the position of keywords in these search engines has gained significant importance. Selecting and predicting keyword positions helps businesses increase the visibility of their websites in search results and attract more traffic. This project was carried out with the aim of using Machine Learning algorithms to predict the position of keywords in search engines. In this research, various models such as Linear Regression, Decision Tree, and Random Forest were used to analyze and predict keyword positions. The project specifically focuses on data related to organic keywords, and its goal is to improve SEO strategies and increase the conversion rate.
 
-**Literature Review
-**
+**Literature Review**
+
 In recent years, numerous studies have been conducted in the field of search engine optimization (SEO) and keyword selection using machine learning algorithms. The primary article of this project, titled “Machine Learning-Based Keyword Selection and Search Engine Optimization,” specifically explores this topic and examines data-driven approaches for improving SEO strategies. The article first presents the limitations of traditional methods of keyword selection. Traditional approaches mainly rely on human experience and trial-and-error, which are considered inefficient due to the increasing complexity of the market and the constant changes in search engine algorithms. In contrast, machine learning can optimize the process of keyword selection by analyzing large amounts of data. The primary article shows that the use of natural language processing (NLP) techniques and deep learning algorithms can help identify user needs more accurately and extract relevant keywords. For example, analyzing user search behavior can lead to identifying long-tail keywords and related synonyms that help improve website rankings in search results.
 
 Analysis of the models used in the primary article:
@@ -19,8 +19,8 @@ The dataset used in this project includes information related to organic keyword
 <img width="829" height="335" alt="op pro" src="https://github.com/user-attachments/assets/12a8ebff-739d-4c1f-aef3-8138e000dc44" />
 
 
-**Feature	Description
-**
+**Feature	Description**
+
 Keyword	The keyword searched by users
 Position	The position of the keyword in search results
 Search Volume	Monthly search volume for each keyword
@@ -31,15 +31,15 @@ Number of Results	The number of search results related to the keyword
 
 Data preprocessing included cleaning the data, normalization, and splitting the data into training and test sets.
 
-**Steps and Algorithms Used
-**
+**Steps and Algorithms Used**
+
 Data splitting:
 The dataset was divided into two parts at an 80:20 ratio:
 • 80% training data for training the models
 • 20% test data for evaluating the models
 
-**Algorithms used:
-**
+**Algorithms used:**
+
 a) Linear Regression
 The Linear Regression model was used to predict keyword positions based on different features such as search volume, CPC, and the number of search results.
 
